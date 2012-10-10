@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Retrieve Profile Link" Height="23" HorizontalAlignment="Right" Margin="0,12,12,0" Name="button1" VerticalAlignment="Top" Width="137" Click="button1_Click" />
-        <TextBlock Height="258" HorizontalAlignment="Left" Margin="12,41,0,0" Name="textBlock1" Text="" VerticalAlignment="Top" Width="479" />
+        <Button Content="Retrieve Servers" Height="23" HorizontalAlignment="Right" Margin="0,12,12,0" Name="button1" VerticalAlignment="Top" Width="137" Click="button1_Click" />
+        <TextBlock Margin="12,41,12,12" Name="textBlock1" Text="" />
+        <Button Content="Retrieve Servers Asynchronously" HorizontalAlignment="Left" Margin="12,12,0,0" Name="button2" Width="216" Height="23" VerticalAlignment="Top" Click="button2_Click" />
     </Grid>
 </Window>
